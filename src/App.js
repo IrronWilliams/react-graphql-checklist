@@ -201,7 +201,7 @@ function App() {
       {/*Todo form */}
       <form onSubmit={handleAddTodo} className='mb3'>
         <input className='pa2 f4 b--dashed' type='text' 
-        placeholder="😎 My Daily Goals 😎" //Write your todo
+        placeholder="😎My Daily Goals😎" //Write your todo
         onChange={event => setTodoText(event.target.value)}
         value={todoText}
         />
