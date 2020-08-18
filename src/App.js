@@ -192,8 +192,8 @@ function App() {
   if(error) return <div>Error fetching Todos...</div> //will prevent app from crashing and will give insight into error
 
   return (
-    <div className='vh-100 code flex flex-column items-center bg-purple white pa3 fl-1'>
-      <h1 className='f2-l'>
+    <div className='vh-100 code flex flex-column items-center bg-navy gold pa3 fl-1'>
+      <h1 className='f2-l '>
         GraphQL Checklist
         <span role='img' aria-label='Checkmark'>✔️</span>
         
@@ -201,7 +201,7 @@ function App() {
       {/*Todo form */}
       <form onSubmit={handleAddTodo} className='mb3'>
         <input className='pa2 f4 b--dashed' type='text' 
-        placeholder='Write your todo' 
+        placeholder="😎 My Daily Goals 😎" //Write your todo
         onChange={event => setTodoText(event.target.value)}
         value={todoText}
         />
